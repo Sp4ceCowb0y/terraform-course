@@ -1,6 +1,6 @@
 variable "AWS_REGION" {
   type    = string
-  default = "eu-west-1"
+  default = "eu-central-1"
 }
 
 variable "ports" {
