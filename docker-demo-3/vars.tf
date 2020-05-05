@@ -17,9 +17,9 @@ variable "ECS_INSTANCE_TYPE" {
 variable "ECS_AMIS" {
   type = map(string)
   default = {
-    us-east-1 = "ami-1924770e"
-    us-west-2 = "ami-56ed4936"
-    eu-central-1 = "ami-c8337dbb"
+    eu-central-1 = "ami-0d2e4df42e13655e0"
+    us-east-1 = "ami-0aee8ced190c05726"
+    eu-west-1 = "ami-0a74b180a0c97ecd1"
   }
 }
 
@@ -28,9 +28,9 @@ variable "ECS_AMIS" {
 variable "AMIS" {
   type = map(string)
   default = {
-    us-east-1 = "ami-13be557e"
-    us-west-2 = "ami-06b94666"
-    eu-central-1 = "ami-844e0bf7"
+    eu-central-1 = "ami-05c26ae4789875080"
+    eu-west-1    = "ami-0dad359ff462124ca"
+    eu-west-2    = "ami-0917237b4e71c5759"
   }
 }
 
@@ -39,6 +39,6 @@ variable "INSTANCE_DEVICE_NAME" {
 }
 
 variable "JENKINS_VERSION" {
-  default = "2.204.1"
+  default = "2.222.3"
 }
 
